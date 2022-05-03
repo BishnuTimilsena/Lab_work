@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Array implementation</title>
+    </head>
+    <body>
+        <script>
+           var string = prompt("Enter the string: ");
+           var result = vowel_count(string);
+           function vowel_count(str) { 
+              const count = str.match(/[aeiou]/gi).length;
+              return count;
+            }
+            console.log(result);
+    
+       </script>
+    </body>
+</html>
