@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Occurence of letter</title>
+    </head>
+    <body>
+        <script>
+          var string=prompt("Enter the string."); 
+          var letter=prompt("Enter the letter to be checked");
+          var occur=occur_letter(string,letter);
+          function occur_letter(string,letter){
+              var count=0;
+              for(var i=0;i<string.length;i++){
+                   if(string.charAt(i)==letter){
+                   count++;
+                }
+            }
+           return(count);
+          }
+          console.log(occur);
+        </script>
+   </body>
+</html>
+
